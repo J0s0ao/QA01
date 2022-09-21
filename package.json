@@ -1,0 +1,23 @@
+{
+  "name": "qa01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test | tap-spec"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0s0ao/QA01.git"
+  },
+  "author": "João Raimundi",
+  "license": "ISC",
+  "dependencies": {
+    "tap-spec":"^5.0.0",
+    "tape":"^5.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/J0s0ao/QA01/issues"
+  },
+  "homepage": "https://github.com/J0s0ao/QA01#readme"
+}
